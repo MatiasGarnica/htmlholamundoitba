@@ -4,6 +4,33 @@
     <title>Formulario Html</title>
 </head>
 <body>
+    <ul>
+        <!--Es una lista no ordenada-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+
+    </ul>
+    <ol>
+        <!--Es una lista ordenada-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li value="10">Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman">Sub Elemento 1</li>
+                <li style="list-style-type:lower-roman">Sub Elemento 2</li>
+                <li style="list-style-type:lower-roman">Sub Elemento 3</li>
+
+            </ol>
+        </li>
+    </ol>
+
+
     <form action="/formulario" method="POST">
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" placeholder="Juan Carlos"/>
