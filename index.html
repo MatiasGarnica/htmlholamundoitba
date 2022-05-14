@@ -4,8 +4,21 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="/formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Juan Carlos"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Segundo"/>
+        <br>
+        <label for="comentario">Comentarios</label>
+        <textarea cols="50" rows="5" id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+        <br>
+        <input type="submit" />
+
+    </form>
     <h1>Buenas tardes!</h1>
-    <H2>Mi nombre es Matías Garnica...</H2>
+    <h2>Mi nombre es <output></output></h2>
     <p1> Con el Mator</p1>
     <h3>En el día de hoy vamos a ver lo siguiente:</h3>
     <hr>
@@ -14,5 +27,7 @@
     <p> Texto mas <br>largo para poder <span style="color:blue">identificar</span> la etiqueta de span!</p>
     <!--A modo de información, estamos intentando comprender las bases de html-->
     <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <br><img src="img/Paisaje.png" width="300" height="200" />
+
 </body>
 </html>
