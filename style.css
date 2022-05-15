@@ -1,0 +1,27 @@
+* {
+    color: white;
+}
+
+body {
+    background-color:darkred;
+    color:white;
+}
+#titulo {
+    color: black;
+    
+}
+article.post {
+    color: rgb(25, 255, 228);
+}
+header {
+    background-color: aliceblue;
+}
+article2.post {
+    color: rgb(49, 201, 252);
+}
+div p {
+    background-color: rgb(0, 36, 243);
+}
+
+/* Esto es un comentario */
+
