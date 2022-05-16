@@ -5,28 +5,35 @@
 
 body {
     background-color:rgb(242, 143, 115);
-    color:white;
+    color:rgb(255, 255, 255);
     background-image: url('img/Fondo.png');
     height: 750px;
     background-size: 680px 400px;
     background-position: center ;
     background-repeat: no-repeat;
+    margin: 15px 30px 30px;
 }
+img {
+    margin: 10px 40px 10px 250px;
+    height: 200px;
+    width: 300px;
+    background-size: 680px 400px;
+}
+
 #titulo {
     color: black;
-    font-weight:;
 
 }
-article.post {
-    color: rgb(25, 255, 228);
+.section {
+    color: aqua;
 }
 header {
     border: 7px white outset;
     background-color: rgba(172, 172, 172, 0.933);
+    padding: 5px 30px 5px 200px ;
+    
 }
-article2.post {
-    color: rgb(49, 201, 252);
-}
+
 div p {
     background-color: rgb(142, 3, 3);
 }
@@ -37,4 +44,7 @@ h2 {
     border-color: rgb(255, 255, 255);
     border-radius: 10px;
     border-width: 4px;
+    margin: 35px 30px 35px 30px;
+    padding: 10px 30px 10px 250px;
+    background-color: rgb(47, 199, 171);
 }
