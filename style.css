@@ -4,15 +4,17 @@
 }
 
 body {
-    background-color:darkred;
+    background-color:rgb(242, 143, 115);
     color:white;
     background-image: url('img/Fondo.png');
-    height: 250px;
-    background-size: 700px 700px;
-
+    height: 750px;
+    background-size: 680px 400px;
+    background-position: center ;
+    background-repeat: no-repeat;
 }
 #titulo {
     color: black;
+    font-weight:;
 
 }
 article.post {
