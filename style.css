@@ -12,25 +12,34 @@ body {
     background-position: center ;
     background-repeat: no-repeat;
     margin: 15px 30px 30px;
+    font-family:'Roboto', sans-serif;
 }
 img {
     margin: 10px 40px 10px 250px;
     height: 200px;
     width: 300px;
     background-size: 680px 400px;
+    
 }
 
 #titulo {
     color: black;
+    text-align: center;
 
 }
+
+
 .section {
     color: aqua;
 }
 header {
     border: 7px white outset;
     background-color: rgba(172, 172, 172, 0.933);
-    padding: 5px 30px 5px 200px ;
+    padding: 0px 50px 20px 50px ;
+    height: 40px;
+    width: 500px;
+    margin: 100px;
+    background-position: center;
     
 }
 
@@ -45,6 +54,7 @@ h2 {
     border-radius: 10px;
     border-width: 4px;
     margin: 35px 30px 35px 30px;
-    padding: 10px 30px 10px 250px;
     background-color: rgb(47, 199, 171);
+    text-align: center;
+    text-shadow: 3px 5px 5px black;
 }
